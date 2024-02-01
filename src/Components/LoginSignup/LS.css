@@ -1,0 +1,94 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 250px;
+    padding-bottom: 35px;
+    width: 500px;
+    border-radius:20px;
+    background-color: rgb(16, 16, 195);
+}
+.Header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.text{
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-weight: 700;
+    
+}
+.underline{
+    height: 6px;
+    width: 90px;
+    background-color:  rgb(255, 255, 255);
+    border-radius: 10px;
+
+}
+.inputs{
+    margin-top: 55px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.inpt{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 400px;
+    height: 60px;
+    background-color: rgb(247, 247, 247);
+    border-radius: 10px;
+}
+.inpt img{
+    margin:0px 40px;
+}
+.inpt input{
+    height: 50px;
+    width: 300px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: rgb(55, 55, 55);
+    font-size: 19px;
+    
+}
+.forpass{
+    padding-left: 145px;
+    margin-top: 27px;
+    color:white;
+    font-size: 18px;
+}
+
+.forpass span{
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    text-decoration: underline;
+}
+.submit-container{
+    display: flex;
+    gap: 30px;
+    margin: 20px auto;
+}
+.submit{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 150px;
+    height: 40px;
+    color: aliceblue;
+    background-color: rgba(128, 87, 185, 0.664);
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.gray{
+    background-color: rgb(176, 163, 187);
+    color: rgb(32, 30, 30);
+}
